@@ -8,17 +8,6 @@ import requests
 from dataclasses import dataclass
 from typing import Optional, List
 
-from pokemontcgsdk.ability import Ability
-from pokemontcgsdk.ancienttrait import AncientTrait
-from pokemontcgsdk.attack import Attack
-from pokemontcgsdk.cardimage import CardImage
-from pokemontcgsdk.legality import Legality
-from pokemontcgsdk.querybuilder import QueryBuilder
-from pokemontcgsdk.resistance import Resistance
-from pokemontcgsdk.set import Set
-from pokemontcgsdk.tcgplayer import TCGPlayer
-from pokemontcgsdk.cardmarket import Cardmarket
-from pokemontcgsdk.weakness import Weakness
 
 @dataclass
 class Card():
