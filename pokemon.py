@@ -3,7 +3,7 @@ import pandas
 
 streamlit.title('POKEMON Finder')
 import requests
-X-Api-Key='	1b7fbe88-8707-4a11-bde2-b47ddcec5c10'
+Api_Key="1b7fbe88-8707-4a11-bde2-b47ddcec5c10"
 # put choice into variable
 Pokemon_name_search = streamlit.text_input('Which POKEMON you are looking for?','Charizar')
 streamlit.write('The user entered ', Pokemon_name_search)
