@@ -1,5 +1,5 @@
-import networkx as nx
-G=nx.from_pandas_edgelist(df,
-                          source='Source',
-                          target='Target',
-                          edge_attr='weight')
+import streamlit
+import pyvis.network import network
+net=network(notebook=True)
+net.from_nx(G)
+net.show("example.html")
